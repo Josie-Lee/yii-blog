@@ -3,9 +3,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=bdm30780697.my3w.com;dbname=bdm30780697_db',
-            'username' => 'bdm30780697',
-            'password' => '123456qq',
+            'dsn' => 'mysql:host=localhost;dbname=blog',
+            'username' => 'root',
+            'password' => '1234',
             'charset' => 'utf8',
 
         ],

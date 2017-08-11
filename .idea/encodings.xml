@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/common/models/CatsModel.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/widgets/tags" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frontend/models/PostForm.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frontend/views/post/create.php" charset="UTF-8" />
+  </component>
+</project>

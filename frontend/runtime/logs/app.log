@@ -6268,3 +6268,1876 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1501496232.0187
     'REQUEST_TIME' => 1501496232
 ]
+2017-08-04 19:06:29 [127.0.0.1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception 'yii\base\InvalidParamException' with message 'Malformed UTF-8 characters, possibly incorrectly encoded.' 
+
+in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\helpers\BaseJson.php:132
+
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\helpers\BaseJson.php(66): yii\helpers\BaseJson::handleJsonError(5)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\helpers\BaseJson.php(88): yii\helpers\BaseJson::encode(Array, 271)
+#2 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\validators\NumberValidator.php(129): yii\helpers\BaseJson::htmlEncode(Array)
+#3 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\widgets\ActiveField.php(763): yii\validators\NumberValidator->clientValidateAttribute(Object(frontend\models\PostForm), 'cat_id', Object(yii\web\View))
+#4 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\widgets\ActiveField.php(230): yii\widgets\ActiveField->getClientOptions()
+#5 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\widgets\ActiveField.php(220): yii\widgets\ActiveField->begin()
+#6 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\widgets\ActiveField.php(176): yii\widgets\ActiveField->render()
+#7 D:\WWW\yiiblog\yii-blog\frontend\views\post\create.php(20): yii\widgets\ActiveField->__toString()
+#8 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\WWW\\yiiblog\\...')
+#9 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\WWW\\yiiblog\\...', Array)
+#10 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\WWW\\yiiblog\\...', Array, Object(frontend\controllers\PostController))
+#11 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('create', Array, Object(frontend\controllers\PostController))
+#12 D:\WWW\yiiblog\yii-blog\frontend\controllers\PostController.php(26): yii\base\Controller->render('create', Array)
+#13 [internal function]: frontend\controllers\PostController->actionCreate()
+#14 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('create', Array)
+#17 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/create', Array)
+#18 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#20 {main}' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\ErrorHandler.php:314
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\ErrorHandler.php(314): trigger_error('<span class="st...', '<span class="nu...')
+#2 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\widgets\ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidParamException))
+#3 D:\WWW\yiiblog\yii-blog\frontend\views\post\create.php(20): yii\widgets\ActiveField->__toString()
+#4 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\WWW\\yiiblog\\...')
+#5 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\PostController))
+#7 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('<span class="st...', '[<span class="s...', Object(frontend\controllers\PostController))
+#8 D:\WWW\yiiblog\yii-blog\frontend\controllers\PostController.php(26): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: frontend\controllers\PostController->actionCreate()
+#10 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#11 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams('[]')
+#12 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('<span class="st...', '[]')
+#13 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('<span class="st...', '[]')
+#14 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#16 {main}
+    in D:\WWW\yiiblog\yii-blog\frontend\views\post\create.php:20
+    in D:\WWW\yiiblog\yii-blog\frontend\controllers\PostController.php:26
+2017-08-04 19:06:29 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'bj9h0bof9erhi85pelou42s8k0'
+    '_csrf-frontend' => 'f2594cb1aa4c6bd64eedcbacc33807cb7c7c472460a453b69343ec31ac432c54a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-clÃíúŒpœ¯‰­w:ï¨Pr\0àèäÈì3™qÒ\";}'
+    '_identity-frontend' => 'f581feee4e3b5f1672907a72c9fd6afbfdf0e0d550043815ab76306adb034fdea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:48:\"[564,\"z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS\",2592000]\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC2'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=bj9h0bof9erhi85pelou42s8k0; _csrf-frontend=f2594cb1aa4c6bd64eedcbacc33807cb7c7c472460a453b69343ec31ac432c54a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1F-cl%C3%ED%FA%8Cp%9C%AF%89%ADw%3A%EF%02%A8Pr%1B%00%E0%E8%E4%C8%1E%EC3%99q%D2%22%3B%7D; _identity-frontend=f581feee4e3b5f1672907a72c9fd6afbfdf0e0d550043815ab76306adb034fdea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B564%2C%22z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '38680'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/post/create'
+    'REQUEST_URI' => '/post/create'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/post/create'
+    'PATH_INFO' => '/post/create'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/post/create'
+    'REQUEST_TIME_FLOAT' => 1501844789.2118
+    'REQUEST_TIME' => 1501844789
+]
+2017-08-04 19:08:42 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\models\PostForm::label_img' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\helpers\BaseHtml.php(2108): yii\base\Component->__get('label_img')
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\helpers\BaseHtml.php(1287): yii\helpers\BaseHtml::getAttributeValue(Object(frontend\models\PostForm), 'label_img')
+#2 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\helpers\BaseHtml.php(1336): yii\helpers\BaseHtml::activeInput('text', Object(frontend\models\PostForm), 'label_img', Array)
+#3 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\widgets\ActiveField.php(395): yii\helpers\BaseHtml::activeTextInput(Object(frontend\models\PostForm), 'label_img', Array)
+#4 D:\WWW\yiiblog\yii-blog\frontend\views\post\create.php(19): yii\widgets\ActiveField->textInput(Array)
+#5 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\WWW\\yiiblog\\...')
+#6 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\WWW\\yiiblog\\...', Array)
+#7 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\WWW\\yiiblog\\...', Array, Object(frontend\controllers\PostController))
+#8 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('create', Array, Object(frontend\controllers\PostController))
+#9 D:\WWW\yiiblog\yii-blog\frontend\controllers\PostController.php(26): yii\base\Controller->render('create', Array)
+#10 [internal function]: frontend\controllers\PostController->actionCreate()
+#11 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('create', Array)
+#14 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/create', Array)
+#15 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+2017-08-04 19:08:42 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'bj9h0bof9erhi85pelou42s8k0'
+    '_csrf-frontend' => 'f2594cb1aa4c6bd64eedcbacc33807cb7c7c472460a453b69343ec31ac432c54a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-clÃíúŒpœ¯‰­w:ï¨Pr\0àèäÈì3™qÒ\";}'
+    '_identity-frontend' => 'f581feee4e3b5f1672907a72c9fd6afbfdf0e0d550043815ab76306adb034fdea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:48:\"[564,\"z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS\",2592000]\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC2'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=bj9h0bof9erhi85pelou42s8k0; _csrf-frontend=f2594cb1aa4c6bd64eedcbacc33807cb7c7c472460a453b69343ec31ac432c54a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1F-cl%C3%ED%FA%8Cp%9C%AF%89%ADw%3A%EF%02%A8Pr%1B%00%E0%E8%E4%C8%1E%EC3%99q%D2%22%3B%7D; _identity-frontend=f581feee4e3b5f1672907a72c9fd6afbfdf0e0d550043815ab76306adb034fdea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B564%2C%22z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '38820'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/post/create'
+    'REQUEST_URI' => '/post/create'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/post/create'
+    'PATH_INFO' => '/post/create'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/post/create'
+    'REQUEST_TIME_FLOAT' => 1501844922.3789
+    'REQUEST_TIME' => 1501844922
+]
+2017-08-04 19:10:45 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\models\PostForm::label_img' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\helpers\BaseHtml.php(2108): yii\base\Component->__get('label_img')
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\helpers\BaseHtml.php(1287): yii\helpers\BaseHtml::getAttributeValue(Object(frontend\models\PostForm), 'label_img')
+#2 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\helpers\BaseHtml.php(1336): yii\helpers\BaseHtml::activeInput('text', Object(frontend\models\PostForm), 'label_img', Array)
+#3 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\widgets\ActiveField.php(395): yii\helpers\BaseHtml::activeTextInput(Object(frontend\models\PostForm), 'label_img', Array)
+#4 D:\WWW\yiiblog\yii-blog\frontend\views\post\create.php(19): yii\widgets\ActiveField->textInput(Array)
+#5 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\WWW\\yiiblog\\...')
+#6 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\WWW\\yiiblog\\...', Array)
+#7 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\WWW\\yiiblog\\...', Array, Object(frontend\controllers\PostController))
+#8 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('create', Array, Object(frontend\controllers\PostController))
+#9 D:\WWW\yiiblog\yii-blog\frontend\controllers\PostController.php(26): yii\base\Controller->render('create', Array)
+#10 [internal function]: frontend\controllers\PostController->actionCreate()
+#11 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('create', Array)
+#14 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/create', Array)
+#15 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+2017-08-04 19:10:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'bj9h0bof9erhi85pelou42s8k0'
+    '_csrf-frontend' => 'f2594cb1aa4c6bd64eedcbacc33807cb7c7c472460a453b69343ec31ac432c54a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-clÃíúŒpœ¯‰­w:ï¨Pr\0àèäÈì3™qÒ\";}'
+    '_identity-frontend' => 'f581feee4e3b5f1672907a72c9fd6afbfdf0e0d550043815ab76306adb034fdea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:48:\"[564,\"z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS\",2592000]\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC2'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=bj9h0bof9erhi85pelou42s8k0; _csrf-frontend=f2594cb1aa4c6bd64eedcbacc33807cb7c7c472460a453b69343ec31ac432c54a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1F-cl%C3%ED%FA%8Cp%9C%AF%89%ADw%3A%EF%02%A8Pr%1B%00%E0%E8%E4%C8%1E%EC3%99q%D2%22%3B%7D; _identity-frontend=f581feee4e3b5f1672907a72c9fd6afbfdf0e0d550043815ab76306adb034fdea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B564%2C%22z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '38821'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/post/create'
+    'REQUEST_URI' => '/post/create'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/post/create'
+    'PATH_INFO' => '/post/create'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/post/create'
+    'REQUEST_TIME_FLOAT' => 1501845045.3085
+    'REQUEST_TIME' => 1501845045
+]
+2017-08-04 19:12:12 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\models\PostForm::label_img1' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\helpers\BaseHtml.php(2108): yii\base\Component->__get('label_img1')
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\helpers\BaseHtml.php(1287): yii\helpers\BaseHtml::getAttributeValue(Object(frontend\models\PostForm), 'label_img1')
+#2 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\helpers\BaseHtml.php(1336): yii\helpers\BaseHtml::activeInput('text', Object(frontend\models\PostForm), 'label_img1', Array)
+#3 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\widgets\ActiveField.php(395): yii\helpers\BaseHtml::activeTextInput(Object(frontend\models\PostForm), 'label_img1', Array)
+#4 D:\WWW\yiiblog\yii-blog\frontend\views\post\create.php(19): yii\widgets\ActiveField->textInput(Array)
+#5 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\WWW\\yiiblog\\...')
+#6 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\WWW\\yiiblog\\...', Array)
+#7 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\WWW\\yiiblog\\...', Array, Object(frontend\controllers\PostController))
+#8 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('create', Array, Object(frontend\controllers\PostController))
+#9 D:\WWW\yiiblog\yii-blog\frontend\controllers\PostController.php(26): yii\base\Controller->render('create', Array)
+#10 [internal function]: frontend\controllers\PostController->actionCreate()
+#11 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#13 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('create', Array)
+#14 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/create', Array)
+#15 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#17 {main}
+2017-08-04 19:12:12 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'bj9h0bof9erhi85pelou42s8k0'
+    '_csrf-frontend' => 'f2594cb1aa4c6bd64eedcbacc33807cb7c7c472460a453b69343ec31ac432c54a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"-clÃíúŒpœ¯‰­w:ï¨Pr\0àèäÈì3™qÒ\";}'
+    '_identity-frontend' => 'f581feee4e3b5f1672907a72c9fd6afbfdf0e0d550043815ab76306adb034fdea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:48:\"[564,\"z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS\",2592000]\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC2'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=bj9h0bof9erhi85pelou42s8k0; _csrf-frontend=f2594cb1aa4c6bd64eedcbacc33807cb7c7c472460a453b69343ec31ac432c54a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%1F-cl%C3%ED%FA%8Cp%9C%AF%89%ADw%3A%EF%02%A8Pr%1B%00%E0%E8%E4%C8%1E%EC3%99q%D2%22%3B%7D; _identity-frontend=f581feee4e3b5f1672907a72c9fd6afbfdf0e0d550043815ab76306adb034fdea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B564%2C%22z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39001'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/post/create'
+    'REQUEST_URI' => '/post/create'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/post/create'
+    'PATH_INFO' => '/post/create'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/post/create'
+    'REQUEST_TIME_FLOAT' => 1501845132.3239
+    'REQUEST_TIME' => 1501845132
+]
+2017-08-07 10:27:40 [127.0.0.1][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Non-static method common\models\CatsModel::getAllCats() should not be called statically, assuming $this from incompatible context' in D:\WWW\yiiblog\yii-blog\frontend\controllers\PostController.php:27
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\frontend\controllers\PostController.php(27): yii\base\ErrorHandler->handleError(2048, 'Non-static meth...', 'D:\\WWW\\yiiblog\\...', 27, Array)
+#1 [internal function]: frontend\controllers\PostController->actionCreate()
+#2 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#4 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('create', Array)
+#5 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/create', Array)
+#6 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2017-08-07 10:27:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'mqfc8vnjiu40i3179vrc753fl4'
+    '_csrf-frontend' => '98b779dfd0642a36a02e23e24518b6fb68144a32efc365089afeb630d66a82a0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰4jgXpl7ê^J-_‘¦’Ð„3Ã*f×B¾\";}'
+    '_identity-frontend' => 'f581feee4e3b5f1672907a72c9fd6afbfdf0e0d550043815ab76306adb034fdea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:48:\"[564,\"z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS\",2592000]\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC2'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=mqfc8vnjiu40i3179vrc753fl4; _csrf-frontend=98b779dfd0642a36a02e23e24518b6fb68144a32efc365089afeb630d66a82a0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%89%014jgXpl7%05%EA%5EJ%17%10-_%91%A6%92%D0%15%84%163%C3%2Af%19%D7B%BE%22%3B%7D; _identity-frontend=f581feee4e3b5f1672907a72c9fd6afbfdf0e0d550043815ab76306adb034fdea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B564%2C%22z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '3711'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/post/create'
+    'REQUEST_URI' => '/post/create'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/post/create'
+    'PATH_INFO' => '/post/create'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/post/create'
+    'REQUEST_TIME_FLOAT' => 1502072860.2472
+    'REQUEST_TIME' => 1502072860
+]
+2017-08-09 20:22:10 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 20:22:10 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '29236'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502281330.2803
+    'REQUEST_TIME' => 1502281330
+]
+2017-08-09 20:24:43 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 20:24:43 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '29364'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502281483.6694
+    'REQUEST_TIME' => 1502281483
+]
+2017-08-09 20:42:49 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 20:42:49 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '30274'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502282569.258
+    'REQUEST_TIME' => 1502282569
+]
+2017-08-09 20:52:18 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 20:52:18 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '30772'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502283138.8664
+    'REQUEST_TIME' => 1502283138
+]
+2017-08-09 20:53:00 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 20:53:00 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '30770'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502283180.0566
+    'REQUEST_TIME' => 1502283180
+]
+2017-08-09 20:53:21 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 20:53:21 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '30770'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502283201.2764
+    'REQUEST_TIME' => 1502283201
+]
+2017-08-09 20:53:36 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 20:53:36 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '30771'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502283216.7295
+    'REQUEST_TIME' => 1502283216
+]
+2017-08-09 20:53:52 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 20:53:52 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '30771'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502283232.3236
+    'REQUEST_TIME' => 1502283232
+]
+2017-08-09 20:54:47 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 20:54:47 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '30892'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502283287.6837
+    'REQUEST_TIME' => 1502283287
+]
+2017-08-09 21:01:08 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\widget\tags\TagWidget' not found' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\widgets\ActiveField.php:725
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-08-09 21:01:08 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf-frontend' => 'IMLI6_GdDO_0-NRyWI1dxCCtloNSuZMfdxEzezctwgnVkZjedmNl39-15tfHnL_plnCW0xry5mXPKSIb3dPMzQ=='
+    'PostForm' => [
+        'title' => 'test'
+        'cat_id' => '1'
+        'label_img' => '/image/20170809/1502282556944246.png'
+        'content' => 'æµ‹è¯•'
+        'tags' => ''
+    ]
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://blog.cn/post/create'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://blog.cn'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '283'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '31151'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/post/create'
+    'REQUEST_URI' => '/post/create'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '283'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/post/create'
+    'PATH_INFO' => '/post/create'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/post/create'
+    'REQUEST_TIME_FLOAT' => 1502283668.5748
+    'REQUEST_TIME' => 1502283668
+]
+2017-08-09 21:01:58 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 21:01:58 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '31186'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502283718.4423
+    'REQUEST_TIME' => 1502283718
+]
+2017-08-09 21:11:29 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 21:11:29 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '31544'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502284289.3777
+    'REQUEST_TIME' => 1502284289
+]
+2017-08-09 21:12:04 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 21:12:04 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '31544'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502284324.9445
+    'REQUEST_TIME' => 1502284324
+]
+2017-08-09 21:14:35 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/235d6eac/images/bg.jpg".' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/235d6eac...', Array)
+#1 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\yiiblog\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\yiiblog\yii-blog\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-08-09 21:14:35 [127.0.0.1][-][ndkc17sg1ehafnsdklf178tsr3][info][application] $_COOKIE = [
+    'advanced-frontend' => 'ndkc17sg1ehafnsdklf178tsr3'
+    '_csrf-frontend' => 'cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"õSP5‡þi0+M2¥Ÿâ-¶Ý\0PHKuz¸8`êþÄ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\lishuang\\AppData\\Roaming'
+    'asl_log' => 'Destination=file'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LISHUANG184'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\lishuang'
+    'LOCALAPPDATA' => 'C:\\Users\\lishuang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MJDC1'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'F:\\ruby\\Ruby24\\bin;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\AppServ\\mysql\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\phpStudy\\php53n\\php.exe;C:\\Program Files\\TortoiseSVN\\bin;F:\\ÏÂÔØ\\mingw\\bin;;C:\\Program Files\\Git\\cmd;F:\\node\\;D:\\phpStudy\\php55n;F:\\vagrant\\bin;C:\\Users\\lishuang\\AppData\\Roaming\\npm;C:\\Users\\lishuang\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\lishuang\\AppData\\Local\\Temp'
+    'USERDNSDOMAIN' => 'BFMJ.COM'
+    'USERDOMAIN' => 'BFMJ'
+    'USERNAME' => 'lishuang'
+    'USERPROFILE' => 'C:\\Users\\lishuang'
+    'VBOX_MSI_INSTALL_PATH' => 'F:\\ÏÂÔØ\\vagrant\\»·¾³²¿Êð\\'
+    'VS100COMNTOOLS' => 'c:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'VS110COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-frontend=ndkc17sg1ehafnsdklf178tsr3; _csrf-frontend=cc4e743c9686f5fadd55dff4a9b37525f132c5c69cfdf85d08620a55cc590992a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F5SP5%87%FEi0%2BM2%A5%9F%11%E2-%B6%DD%00PHKuz%B88%11%60%EA%FE%0E%C4%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_REFERER' => 'http://blog.cn/assets/235d6eac/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '31715'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/yiiblog/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_URI' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/yiiblog/yii-blog/frontend/web/assets/235d6eac/images/bg.jpg'
+    'PATH_INFO' => '/assets/235d6eac/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/yiiblog/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/235d6eac/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1502284475.8804
+    'REQUEST_TIME' => 1502284475
+]

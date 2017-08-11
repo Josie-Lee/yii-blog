@@ -1,11 +1,13 @@
 <?php
 namespace frontend\models;
 
+use common\models\PostModel;
 use Yii;
-use yii\base\model;
+use yii\base\Exception;
+use yii\base\Model;
 
 /**
- * ÎÄÕÂ±íµ¥Ä£ĞÍ
+ * æ–‡ç« è¡¨å•æ¨¡å‹
  * @package frontend\models
  */
 class PostForm extends Model
@@ -13,17 +15,32 @@ class PostForm extends Model
     public $id;
     public $title;
     public $content;
-    public $lable_img;
+    public $label_img;
     public $cat_id;
     public $tags;
 
     public $_lastError = '';
 
+    const SCENARIOS_CREATE = 'create';
+    const SCENARIOS_UPDATE = 'update';
+
+    /**
+     * åœºæ™¯è®¾ç½®
+     */
+    public function scenarios()
+    {
+        $scenarios = [
+            self::SCENARIOS_CREATE => ['title', 'content', 'label_img', 'cat_id', 'tags'],
+            self::SCENARIOS_UPDATE => ['title', 'content', 'label_img', 'cat_id', 'tags'],
+        ];
+        return array_merge(parent::scenarios(), $scenarios);
+    }
+
     public function rules()
     {
         return [
-            [['id', 'title', 'content'], 'required'],
-            [['id', 'cat_id'], 'integer'],
+            [['title', 'content'], 'required'],
+            [['cat_id'], 'integer'],
             ['title', 'string', 'min'=>4, 'max'=>50],
         ];
     }
@@ -31,11 +48,72 @@ class PostForm extends Model
     public function attributeLabels()
     {
         return [
-            'id' => '±àÂë',
-            'title' => '±êÌâ',
-            'content' => 'ÄÚÈİ',
-            'label_img' => '±êÇ©Í¼',
-            'tags' => '±êÇ©',
+            'title' => 'æ ‡é¢˜',
+            'content' => 'å†…å®¹',
+            'label_img' => 'æ ‡ç­¾å›¾',
+            'tags' => 'æ ‡ç­¾',
+            'cat_id' => 'åˆ†ç±»',
         ];
     }
+
+
+    public function create()
+    {
+        //äº‹åŠ¡çš„ä½¿ç”¨
+        $transaction = Yii::$app->db->beginTransaction();
+        try{
+            $model = new PostModel();
+            $model->setAttributes($this->attributes);
+            $model->summary = $this->_getSummary();
+            $model->user_id = Yii::$app->user->identity->id;
+            $model->user_name = Yii::$app->user->identity->username;
+            $model->created_at = time();
+            $model->updated_at = time();
+            if(!$model->save()){
+                throw new \Exception('æ–‡ç« ä¿å­˜å¤±è´¥');
+            }
+            $this->id = $model->id;
+
+
+            //è°ƒç”¨äº‹ä»¶
+            $model->_eventAfterCreate();
+
+
+
+            $transaction->commit();
+            return true;
+
+        }catch(\Exception $e){
+            $transaction->rollBack();
+            $this->_lastError = $e->getMessage();
+            return false;
+        }
+    }
+
+    /**
+     * æˆªå–æ–‡ç« æ‘˜è¦
+     * @param int $start
+     * @param int $end
+     * @param string $char
+     * @return null|string
+     */
+    private function _getSummary($start = 0, $end = 90, $char = 'utf-8')
+    {
+        if(empty($this->content)){
+            return null;
+        }
+
+        return (mb_substr(str_replace('&nbsp;', '', strip_tags($this->content)), $start, $end, $char));
+
+    }
+
+
+
+
+
+
+
+
+
+
 }
