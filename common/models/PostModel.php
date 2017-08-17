@@ -22,6 +22,9 @@ use Yii;
  */
 class PostModel extends BaseModel
 {
+
+    const IS_VALID = 1; //已发布
+    const NO_VALID = 0; //未发布
     /**
      * @inheritdoc
      */
@@ -60,5 +63,15 @@ class PostModel extends BaseModel
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
         ];
+    }
+
+    public function getRelate()
+    {
+        return $this->hasMany(RelationPostTagsModel::className(), ['post_id'=>'id']);
+    }
+
+    public function getExtend()
+    {
+        return $this->hasOne(PostExtendsModel::className(), ['post_id'=>'id']);
     }
 }

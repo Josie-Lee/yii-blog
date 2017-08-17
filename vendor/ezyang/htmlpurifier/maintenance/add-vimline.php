@@ -28,7 +28,7 @@ foreach ($files as $file) {
         postfix_is('.dtd', $file) ||
         postfix_is('.ent', $file) ||
         postfix_is('.png', $file) ||
-        postfix_is('.ico', $file) ||
+        postfix_is('0.ico', $file) ||
         // wontfix
         postfix_is('.vtest', $file) ||
         postfix_is('.svg', $file) ||

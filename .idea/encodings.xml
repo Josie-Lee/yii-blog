@@ -5,5 +5,10 @@
     <file url="file://$PROJECT_DIR$/common/widgets/tags" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/models/PostForm.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/frontend/views/post/create.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frontend/views/post/view.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frontend/views/site/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frontend/widgets/banner/views/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frontend/widgets/post/PostWidget.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frontend/widgets/post/views/index.php" charset="UTF-8" />
   </component>
 </project>

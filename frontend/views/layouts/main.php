@@ -21,7 +21,9 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
-    <?php $this->head() ?>
+
+    <?php $this->head() ?><link rel="icon" href="/favicon.ico" />
+
 </head>
 <body>
 <?php $this->beginBody() ?>
@@ -86,7 +88,7 @@ AppAsset::register($this);
         <?= $content ?>
     </div>
 </div>
-
+<?php /*
 <footer class="footer">
     <div class="container">
         <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
@@ -94,6 +96,7 @@ AppAsset::register($this);
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
 </footer>
+ */?>
 
 <?php $this->endBody() ?>
 </body>

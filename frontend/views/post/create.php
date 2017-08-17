@@ -31,9 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="form-group">
                 <?= \yii\bootstrap\Html::submitButton('发布', ['class'=>'btn btn-success']) ?>
             </div>
-
             <?php ActiveForm::end() ?>
-
         </div>
     </div>
     <div class="col-lg-3">
