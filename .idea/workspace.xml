@@ -2,96 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6202413-f0e1-4c0b-8363-a7f550083f84" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/statics/banner/b1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/statics/banner/b2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/statics/banner/b3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/statics/banner/b4.png" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\backend\runtime\debug\5977ffc0bd70c.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\backend\runtime\debug\597803cb3d6da.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\backend\runtime\debug\597803cb4944e.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\backend\runtime\debug\597803cc85156.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\backend\runtime\debug\597803cc94962.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\backend\runtime\debug\597803cd2e2b6.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\backend\runtime\debug\597803cd3c92e.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\backend\runtime\debug\597803cdbd1d2.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\backend\runtime\debug\597803cdca6b6.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\backend\runtime\debug\597807a650242.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\backend\runtime\debug\597807a6596ba.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5987cda14016d.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5987d01c4234e.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5987d02ab8fb2.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5987d1ae4486a.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5987d21863c6a.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5987d29666b4a.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5987d298e21e6.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5987d2b632372.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5987d2ccdf112.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5987d2d8c33c2.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5987d37b39238.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598afd91127c7.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598afd94064d1.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598afd976938e.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598afd9828128.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598afe7208d6a.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598afe724a28c.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598afec784850.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598aff0b83140.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598aff0ba831e.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b033c4995e.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b034918a65.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0349443cd.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05826e0fd.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0582daf86.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0582e7e98.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05abcaa87.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05ac13afd.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05ac27581.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05c11b0fa.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05c14a309.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05c157fc8.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05d0875be.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05d0b6f9d.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05d0c6d92.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05e02adc2.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05e053a3b.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b05e069401.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b06177ca9b.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0617ad032.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0617bc657.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b079492325.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b07c63c3dd.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b07c671d75.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b07c681f52.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0a012a4ed.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0a0160da0.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0a0171724.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0a24b4cd0.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0a24ec521.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0a250bb41.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0abba8305.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0abbdd695.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\598b0abbec4dd.data" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\web\favicon.ico" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/base/BaseModel.php" afterPath="$PROJECT_DIR$/common/models/base/BaseModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/controllers/PostController.php" afterPath="$PROJECT_DIR$/frontend/controllers/PostController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/models/PostForm.php" afterPath="$PROJECT_DIR$/frontend/models/PostForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/models/PostModel.php" afterPath="$PROJECT_DIR$/common/models/PostModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/add-vimline.php" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/add-vimline.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/runtime/logs/app.log" afterPath="$PROJECT_DIR$/backend/runtime/logs/app.log" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5995698607438.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5995698692546.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956986d03b5.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\5995698716f0d.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\599569874f1ab.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\599569b6d811d.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\599569b7a89fa.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\599569b7df333.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\599569b81c04f.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\599569b84cbc3.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\599569b88543d.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\599569b8b80e7.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\599569b8ee443.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\599569ba146cd.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956a0a77cf3.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956a37144d4.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956a84e58c0.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956a9dad239.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956ac530b95.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b16d5a9e.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b182ab3a.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b18a367b.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b18ef8fd.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b193a07d.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b1971320.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b19a7624.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b19de2eb.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b1a36520.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b2c6e50a.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b2c81d7a.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b2c92130.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b2ca57ac.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b2cb4bc4.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b4451ed4.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b4463806.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b44739c8.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b44833bc.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b4490895.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956b83508f3.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956bdf69d8a.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956c69c45c6.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956dec41036.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956e7ac97ce.data" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\yiiblog\yii-blog\frontend\runtime\debug\59956e7e44cc2.data" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/post/create.php" afterPath="$PROJECT_DIR$/frontend/views/post/create.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/post/index.php" afterPath="$PROJECT_DIR$/frontend/views/post/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/site/index.php" afterPath="$PROJECT_DIR$/frontend/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/web/index.php" afterPath="$PROJECT_DIR$/frontend/web/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/views/layouts/main.php" afterPath="$PROJECT_DIR$/backend/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/layouts/main.php" afterPath="$PROJECT_DIR$/frontend/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/config/params-local.php" afterPath="$PROJECT_DIR$/frontend/config/params-local.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/widgets/post/views/index.php" afterPath="$PROJECT_DIR$/frontend/widgets/post/views/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/web/statics/css/site.css" afterPath="$PROJECT_DIR$/frontend/web/statics/css/site.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\WWW\yiiblog\yii-blog\backend\web\favicon.ico" afterPath="$PROJECT_DIR$/backend/web/assets/favicon.ico" />
     </list>
     <ignored path="yii-blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,48 +74,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/widgets/post/views/index.php">
+      <file leaf-file-name="FeedsModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/models/FeedsModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6666667">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state vertical-scroll-proportion="-22.25926">
+              <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
               <folding>
-                <element signature="e#6#26#0#PHP" expanded="true" />
-                <marker date="1502948343297" expanded="true" signature="898:948" placeholder="..." />
-                <marker date="1502948343297" expanded="true" signature="1058:1150" placeholder="..." />
-                <marker date="1502948343297" expanded="true" signature="2037:2080" placeholder="..." />
+                <element signature="e#33#41#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/widgets/banner/views/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.962963">
-              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-              <folding>
-                <marker date="1502965402308" expanded="true" signature="731:757" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostWidget.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/widgets/post/PostWidget.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.333333">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/widgets/chat/views/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18287373">
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/web/statics/css/site.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="299" column="1" selection-start-line="299" selection-start-column="1" selection-end-line="299" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatWidget.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/widgets/chat/ChatWidget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6666667">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69433963">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.333333">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="e#7#27#0#PHP" expanded="true" />
               </folding>
@@ -162,45 +131,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BannerWidget.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/widgets/banner/BannerWidget.php">
+      <file leaf-file-name="site.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/web/statics/js/site.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3333335">
-              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-              <folding>
-                <element signature="e#42#50#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/controllers/PostController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.592592">
-              <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/views/post/index.php">
+      <file leaf-file-name="UserModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/models/UserModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6666665">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="e#7#44#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-19.592592">
+              <caret line="187" column="5" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Module.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-debug/Module.php">
+      <file leaf-file-name="TagsModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/models/TagsModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.740741">
-              <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
+            <state vertical-scroll-proportion="10.407408">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/models/PostModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="6.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RelationPostTagsModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/models/RelationPostTagsModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.925926">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -229,7 +204,6 @@
         <option value="$PROJECT_DIR$/frontend/models/PostForm.php" />
         <option value="$PROJECT_DIR$/common/models/base/BaseModel.php" />
         <option value="$PROJECT_DIR$/frontend/views/post/index.php" />
-        <option value="$PROJECT_DIR$/frontend/web/statics/css/site.css" />
         <option value="$PROJECT_DIR$/frontend/config/params-local.php" />
         <option value="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/example4.php" />
         <option value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/add-vimline.php" />
@@ -237,11 +211,17 @@
         <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/messages/zh-CN/yii.php" />
         <option value="$PROJECT_DIR$/backend/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/frontend/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/frontend/widgets/post/views/index.php" />
         <option value="$PROJECT_DIR$/frontend/widgets/post/PostWidget.php" />
         <option value="$PROJECT_DIR$/frontend/widgets/banner/views/index.php" />
         <option value="$PROJECT_DIR$/frontend/widgets/banner/BannerWidget.php" />
+        <option value="$PROJECT_DIR$/frontend/widgets/post/views/index.php" />
+        <option value="$PROJECT_DIR$/frontend/widgets/chat/ChatWidget.php" />
+        <option value="$PROJECT_DIR$/frontend/models/FeedForm.php" />
+        <option value="$PROJECT_DIR$/common/models/UserModel.php" />
+        <option value="$PROJECT_DIR$/common/models/FeedsModel.php" />
+        <option value="$PROJECT_DIR$/frontend/web/statics/css/site.css" />
         <option value="$PROJECT_DIR$/frontend/views/site/index.php" />
+        <option value="$PROJECT_DIR$/frontend/widgets/chat/views/index.php" />
       </list>
     </option>
   </component>
@@ -257,9 +237,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="width" value="1604" />
-    <option name="height" value="860" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -284,7 +265,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -331,11 +311,117 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,9 +457,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,11 +490,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WWW\yiiblog\yii-blog\frontend\web\statics\js" />
       <recent name="D:\WWW\yiiblog\yii-blog\frontend\web\statics\banner" />
       <recent name="D:\WWW\yiiblog\yii-blog\frontend\web" />
       <recent name="D:\WWW\yiiblog\yii-blog\frontend\web\statics" />
       <recent name="D:\WWW\yiiblog\yii-blog\frontend\web\statics\images" />
-      <recent name="D:\WWW\yiiblog\yii-blog\common\widgets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WWW\yiiblog\yii-blog\frontend\web" />
@@ -441,16 +546,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1604" height="860" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13989638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14138818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19615912" sideWeight="0.4974293" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -461,6 +565,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19615912" sideWeight="0.4974293" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -481,92 +586,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/widgets/ueditor/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.064516">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/views/post/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.666667">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6666665">
-          <caret line="685" column="89" selection-start-line="685" selection-start-column="89" selection-end-line="685" selection-end-column="89" />
-          <folding>
-            <element signature="e#173#181#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/PostExtendsModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-          <folding>
-            <element signature="e#33#66#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/PostModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="79" selection-start-line="74" selection-start-column="79" selection-end-line="74" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/codeception.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/Linkable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4122137">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.925926">
-          <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/BaseListView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.29032257">
-          <caret line="208" column="25" selection-start-line="208" selection-start-column="25" selection-end-line="208" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/base/BaseModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#37#45#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Module.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="109.37037">
@@ -579,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6252285">
           <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.11882998">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,19 +653,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/web/statics/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="248" column="1" selection-start-line="248" selection-start-column="1" selection-end-line="248" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/config/params-local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.3333335">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34917733">
           <caret line="296" column="27" selection-start-line="296" selection-start-column="27" selection-end-line="296" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33272395">
           <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.036563072">
           <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69104207">
           <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,13 +717,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-debug/Module.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.740741">
+        <state vertical-scroll-proportion="0.0">
           <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
           <folding />
         </state>
@@ -734,9 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72394884">
           <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.0">
           <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,9 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.9414991">
           <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-          <folding>
-            <element signature="e#1824#2026#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,16 +768,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42413163">
           <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/post/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <element signature="e#7#44#0#PHP" expanded="true" />
+            <element signature="e#7#44#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -811,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40754718">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,17 +812,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/widgets/post/PostWidget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.333333">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.592592">
+        <state vertical-scroll-proportion="0.0">
           <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
           <folding />
         </state>
@@ -841,17 +822,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/widgets/banner/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.962963">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
           <folding>
-            <marker date="1502965402308" expanded="true" signature="731:757" placeholder="..." />
+            <marker date="1502965402308" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/widgets/banner/BannerWidget.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
           <folding>
             <element signature="e#42#50#0#PHP" expanded="true" />
@@ -859,25 +840,128 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/post/PostWidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.0740743">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/widgets/post/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state vertical-scroll-proportion="-11.333333">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
           <folding>
             <element signature="e#6#26#0#PHP" expanded="true" />
-            <marker date="1502948343297" expanded="true" signature="898:948" placeholder="..." />
-            <marker date="1502948343297" expanded="true" signature="1058:1150" placeholder="..." />
-            <marker date="1502948343297" expanded="true" signature="2037:2080" placeholder="..." />
+            <marker date="1503049055381" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1503049055381" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1503049055381" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/models/FeedForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.592592">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="e#34#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/CatsModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/PostModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/TagsModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.407408">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/RelationPostTagsModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.925926">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.592592">
+          <caret line="187" column="5" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/FeedsModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.25926">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <folding>
+            <element signature="e#33#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/web/statics/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="299" column="1" selection-start-line="299" selection-start-column="1" selection-end-line="299" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/web/statics/js/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69433963">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.333333">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="e#7#27#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/chat/ChatWidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/chat/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18287373">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
