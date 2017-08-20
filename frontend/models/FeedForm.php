@@ -1,6 +1,7 @@
 <?php
 namespace frontend\models;
 
+use Yii;
 use common\models\FeedsModel;
 use yii\base\Model;
 class FeedForm extends Model
@@ -36,5 +37,26 @@ class FeedForm extends Model
             ->asArray()
             ->all();
         return $res?:[];
+    }
+
+
+    /**
+     * 创建留言
+     */
+    public function create()
+    {
+        try{
+            $model = new FeedsModel();
+            $model->user_id = Yii::$app->user->identity->id;
+            $model->content = $this->content;
+            $model->created_at = time();
+            if(!$model->save()){
+                throw new \Exception('保存失败');
+            }
+            return true;
+        }catch (\Exception $e){
+            $this->_lastError = $e->getMessage();
+            return false;
+        }
     }
 }

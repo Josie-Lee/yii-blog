@@ -15,6 +15,5 @@ class ChatWidget extends Widget
         $feed = new FeedForm();
         $data['feed'] = $feed->getList();
         return $this->render('index', ['data'=>$data]);
-
     }
 }

@@ -1,6 +1,7 @@
 <?php
 namespace frontend\controllers;
 
+use frontend\models\FeedForm;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
@@ -214,5 +215,21 @@ class SiteController extends BaseController
         return $this->render('resetPassword', [
             'model' => $model,
         ]);
+    }
+
+    /**
+     * Ìí¼ÓÁôÑÔ
+     * @param
+     * @return string
+     */
+    public function actionAddFeed()
+    {
+        $model = new FeedForm();
+        $model->content = Yii::$app->request->post('content');
+        if($model->validate() && $model->create()){
+            return json_encode(['status'=>true]);
+        }else{
+            return json_encode(['status'=>false, 'msg'=>'Ê§°Ü']);
+        }
     }
 }

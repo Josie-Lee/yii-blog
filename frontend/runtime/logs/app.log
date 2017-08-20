@@ -25260,3 +25260,920 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1503050845.3175
     'REQUEST_TIME' => 1503050845
 ]
+2017-08-19 14:53:58 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/add-feed' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('add-feed', Array)
+#1 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/add-feed', Array)
+#2 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#2 {main}
+2017-08-19 14:53:58 [127.0.0.1][-][-][info][application] $_POST = [
+    'content' => '
+'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => '6qdqqq9mhhkj94dh9mkes40aj2'
+    '_csrf-frontend' => '0d2192656e7283c0eb7fafc2779545ffc5f4db5e7450b656fcb5901a8fb0331ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"!»RpoòUbÁÍŠ\'âR|èè~k^49_G9ŠlÁõš\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'UDLGBK25YFB5EGJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\UDLGBK25YFB5EGJ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\python3\\Scripts\\;E:\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\bin\\win32;E:\\matlab2013\\runtime\\win64;E:\\matlab2013\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\vim\\vim72;F:\\Notepad+\\Notepad++;F:\\minGW\\bin;D:\\phpstudy\\phpStudy\\MySQL\\bin;F:\\python\\python2.7;D:\\phpstudy\\phpStudy\\php54n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'UDLGBK25YFB5EGJ'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VS100COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'advanced-frontend=6qdqqq9mhhkj94dh9mkes40aj2; _csrf-frontend=0d2192656e7283c0eb7fafc2779545ffc5f4db5e7450b656fcb5901a8fb0331ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%21%BBRpo%F2Ub%C1%CD%8A%27%E2R%7C%E8%E8%7Ek%81%5E49_G9%8Al%C1%F5%9A%1E%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://blog.cn/'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_CSRF_TOKEN' => 'NDBv2msQCj69HeF_P0Usu-1KvetQJyaJC7JFWtZLMMcViz2qBOJfXHzQa1jdF1BTBTTWag4TH9ZMi882F76q2Q=='
+    'HTTP_ORIGIN' => 'http://blog.cn'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_LENGTH' => '11'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '1425'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/git/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/site/add-feed'
+    'REQUEST_URI' => '/site/add-feed'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '11'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/git/yii-blog/frontend/web/site/add-feed'
+    'PATH_INFO' => '/site/add-feed'
+    'SCRIPT_FILENAME' => 'D:/WWW/git/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/site/add-feed'
+    'REQUEST_TIME_FLOAT' => 1503125638.4194
+    'REQUEST_TIME' => 1503125638
+]
+2017-08-19 14:54:20 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/add-feed' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('add-feed', Array)
+#1 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/add-feed', Array)
+#2 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#2 {main}
+2017-08-19 14:54:20 [127.0.0.1][-][-][info][application] $_POST = [
+    'content' => '
+'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => '6qdqqq9mhhkj94dh9mkes40aj2'
+    '_csrf-frontend' => '0d2192656e7283c0eb7fafc2779545ffc5f4db5e7450b656fcb5901a8fb0331ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"!»RpoòUbÁÍŠ\'âR|èè~k^49_G9ŠlÁõš\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'UDLGBK25YFB5EGJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\UDLGBK25YFB5EGJ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\python3\\Scripts\\;E:\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\bin\\win32;E:\\matlab2013\\runtime\\win64;E:\\matlab2013\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\vim\\vim72;F:\\Notepad+\\Notepad++;F:\\minGW\\bin;D:\\phpstudy\\phpStudy\\MySQL\\bin;F:\\python\\python2.7;D:\\phpstudy\\phpStudy\\php54n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'UDLGBK25YFB5EGJ'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VS100COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'advanced-frontend=6qdqqq9mhhkj94dh9mkes40aj2; _csrf-frontend=0d2192656e7283c0eb7fafc2779545ffc5f4db5e7450b656fcb5901a8fb0331ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%21%BBRpo%F2Ub%C1%CD%8A%27%E2R%7C%E8%E8%7Ek%81%5E49_G9%8Al%C1%F5%9A%1E%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://blog.cn/'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_X_CSRF_TOKEN' => 'NDBv2msQCj69HeF_P0Usu-1KvetQJyaJC7JFWtZLMMcViz2qBOJfXHzQa1jdF1BTBTTWag4TH9ZMi882F76q2Q=='
+    'HTTP_ORIGIN' => 'http://blog.cn'
+    'HTTP_CONTENT_LENGTH' => '11'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '1425'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/git/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/site/add-feed'
+    'REQUEST_URI' => '/site/add-feed'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '11'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/git/yii-blog/frontend/web/site/add-feed'
+    'PATH_INFO' => '/site/add-feed'
+    'SCRIPT_FILENAME' => 'D:/WWW/git/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/site/add-feed'
+    'REQUEST_TIME_FLOAT' => 1503125660.0216
+    'REQUEST_TIME' => 1503125660
+]
+2017-08-19 22:18:22 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\db\Query::select(), called in D:\WWW\git\yii-blog\frontend\widgets\hot\HotWidget.php on line 22 and defined' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\Query.php:464
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\Query.php(464): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'D:\\WWW\\git\\yii-...', 464, Array)
+#1 D:\WWW\git\yii-blog\frontend\widgets\hot\HotWidget.php(22): yii\db\Query->select()
+#2 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Widget.php(139): frontend\widgets\hot\HotWidget->run()
+#3 D:\WWW\git\yii-blog\frontend\views\site\index.php(23): yii\base\Widget::widget()
+#4 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\WWW\\git\\yii-...')
+#5 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\WWW\\git\\yii-...', Array)
+#6 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\WWW\\git\\yii-...', Array, Object(frontend\controllers\SiteController))
+#7 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#8 D:\WWW\git\yii-blog\frontend\controllers\SiteController.php(76): yii\base\Controller->render('index')
+#9 [internal function]: frontend\controllers\SiteController->actionIndex()
+#10 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#12 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#13 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#14 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#16 {main}
+2017-08-19 22:18:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => '0d2192656e7283c0eb7fafc2779545ffc5f4db5e7450b656fcb5901a8fb0331ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"!»RpoòUbÁÍŠ\'âR|èè~k^49_G9ŠlÁõš\";}'
+    'advanced-frontend' => '3j64fcd6odkt8281vrco9nke32'
+    '_identity-frontend' => 'fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:48:\"[560,\"z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS\",2592000]\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'UDLGBK25YFB5EGJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\UDLGBK25YFB5EGJ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\python3\\Scripts\\;E:\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\bin\\win32;E:\\matlab2013\\runtime\\win64;E:\\matlab2013\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\vim\\vim72;F:\\Notepad+\\Notepad++;F:\\minGW\\bin;D:\\phpstudy\\phpStudy\\MySQL\\bin;F:\\python\\python2.7;D:\\phpstudy\\phpStudy\\php54n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'UDLGBK25YFB5EGJ'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VS100COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => '_csrf-frontend=0d2192656e7283c0eb7fafc2779545ffc5f4db5e7450b656fcb5901a8fb0331ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%21%BBRpo%F2Ub%C1%CD%8A%27%E2R%7C%E8%E8%7Ek%81%5E49_G9%8Al%C1%F5%9A%1E%22%3B%7D; advanced-frontend=3j64fcd6odkt8281vrco9nke32; _identity-frontend=fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://blog.cn/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '28766'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/git/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/git/yii-blog/frontend/web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'D:/WWW/git/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503152300.9462
+    'REQUEST_TIME' => 1503152300
+]
+2017-08-19 22:19:57 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator 'A.POST_ID = B.ID' requires two operands.' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\QueryBuilder.php:1455
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\QueryBuilder.php(1078): yii\db\QueryBuilder->buildSimpleCondition('A.POST_ID = B.I...', Array, '<span class="st...')
+#1 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\QueryBuilder.php(837): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\QueryBuilder.php(115): yii\db\QueryBuilder->buildJoin(Array, '<span class="st...')
+#3 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\Query.php(126): yii\db\QueryBuilder->build(Object(yii\db\Query))
+#4 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Query->createCommand(NULL)
+#5 D:\WWW\git\yii-blog\frontend\widgets\hot\HotWidget.php(28): yii\db\Query->all()
+#6 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Widget.php(139): frontend\widgets\hot\HotWidget->run()
+#7 D:\WWW\git\yii-blog\frontend\views\site\index.php(23): yii\base\Widget::widget()
+#8 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\WWW\\git\\yii-...')
+#9 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\WWW\\git\\yii-...', Array)
+#10 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\WWW\\git\\yii-...', Array, Object(frontend\controllers\SiteController))
+#11 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 D:\WWW\git\yii-blog\frontend\controllers\SiteController.php(76): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#17 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#18 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#20 {main}
+2017-08-19 22:19:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => '0d2192656e7283c0eb7fafc2779545ffc5f4db5e7450b656fcb5901a8fb0331ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"!»RpoòUbÁÍŠ\'âR|èè~k^49_G9ŠlÁõš\";}'
+    'advanced-frontend' => '3j64fcd6odkt8281vrco9nke32'
+    '_identity-frontend' => 'fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:48:\"[560,\"z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS\",2592000]\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'UDLGBK25YFB5EGJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\UDLGBK25YFB5EGJ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\python3\\Scripts\\;E:\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\bin\\win32;E:\\matlab2013\\runtime\\win64;E:\\matlab2013\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\vim\\vim72;F:\\Notepad+\\Notepad++;F:\\minGW\\bin;D:\\phpstudy\\phpStudy\\MySQL\\bin;F:\\python\\python2.7;D:\\phpstudy\\phpStudy\\php54n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'UDLGBK25YFB5EGJ'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VS100COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => '_csrf-frontend=0d2192656e7283c0eb7fafc2779545ffc5f4db5e7450b656fcb5901a8fb0331ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%21%BBRpo%F2Ub%C1%CD%8A%27%E2R%7C%E8%E8%7Ek%81%5E49_G9%8Al%C1%F5%9A%1E%22%3B%7D; advanced-frontend=3j64fcd6odkt8281vrco9nke32; _identity-frontend=fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://blog.cn/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '28786'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/git/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/git/yii-blog/frontend/web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'D:/WWW/git/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503152396.4977
+    'REQUEST_TIME' => 1503152396
+]
+2017-08-19 22:20:05 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Operator 'A.POST_ID = B.ID' requires two operands.' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\QueryBuilder.php:1455
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\QueryBuilder.php(1078): yii\db\QueryBuilder->buildSimpleCondition('A.POST_ID = B.I...', Array, '<span class="st...')
+#1 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\QueryBuilder.php(837): yii\db\QueryBuilder->buildCondition(Array, '<span class="st...')
+#2 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\QueryBuilder.php(115): yii\db\QueryBuilder->buildJoin(Array, '<span class="st...')
+#3 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\Query.php(126): yii\db\QueryBuilder->build(Object(yii\db\Query))
+#4 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Query->createCommand(NULL)
+#5 D:\WWW\git\yii-blog\frontend\widgets\hot\HotWidget.php(28): yii\db\Query->all()
+#6 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Widget.php(139): frontend\widgets\hot\HotWidget->run()
+#7 D:\WWW\git\yii-blog\frontend\views\site\index.php(23): yii\base\Widget::widget()
+#8 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\View.php(330): require('D:\\WWW\\git\\yii-...')
+#9 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\WWW\\git\\yii-...', Array)
+#10 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\WWW\\git\\yii-...', Array, Object(frontend\controllers\SiteController))
+#11 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 D:\WWW\git\yii-blog\frontend\controllers\SiteController.php(76): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#17 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#18 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#20 {main}
+2017-08-19 22:20:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf-frontend' => '0d2192656e7283c0eb7fafc2779545ffc5f4db5e7450b656fcb5901a8fb0331ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"!»RpoòUbÁÍŠ\'âR|èè~k^49_G9ŠlÁõš\";}'
+    'advanced-frontend' => '3j64fcd6odkt8281vrco9nke32'
+    '_identity-frontend' => 'fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:48:\"[560,\"z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS\",2592000]\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'UDLGBK25YFB5EGJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\UDLGBK25YFB5EGJ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\python3\\Scripts\\;E:\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\bin\\win32;E:\\matlab2013\\runtime\\win64;E:\\matlab2013\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\vim\\vim72;F:\\Notepad+\\Notepad++;F:\\minGW\\bin;D:\\phpstudy\\phpStudy\\MySQL\\bin;F:\\python\\python2.7;D:\\phpstudy\\phpStudy\\php54n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'UDLGBK25YFB5EGJ'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VS100COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => '_csrf-frontend=0d2192656e7283c0eb7fafc2779545ffc5f4db5e7450b656fcb5901a8fb0331ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%21%BBRpo%F2Ub%C1%CD%8A%27%E2R%7C%E8%E8%7Ek%81%5E49_G9%8Al%C1%F5%9A%1E%22%3B%7D; advanced-frontend=3j64fcd6odkt8281vrco9nke32; _identity-frontend=fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '28786'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/git/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/git/yii-blog/frontend/web'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'D:/WWW/git/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503152404.0381
+    'REQUEST_TIME' => 1503152404
+]
+2017-08-19 22:44:15 [127.0.0.1][560][amgocosqncbsch02ssledmnfe4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/e7b21946/images/bg.jpg".' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/e7b21946...', Array)
+#1 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#2 {main}
+2017-08-19 22:44:15 [127.0.0.1][560][amgocosqncbsch02ssledmnfe4][info][application] $_COOKIE = [
+    'advanced-frontend' => 'amgocosqncbsch02ssledmnfe4'
+    '_csrf-frontend' => 'baf356c1f50a997b037dc887d9df1b74a6ab43f9599c00a964c2412bcfd083d7a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"01Úª,d ‹ŒhÚ;4m­R¡È3pýfø[‹-|\";}'
+    '_identity-frontend' => 'fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:48:\"[560,\"z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'UDLGBK25YFB5EGJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\UDLGBK25YFB5EGJ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\python3\\Scripts\\;E:\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\bin\\win32;E:\\matlab2013\\runtime\\win64;E:\\matlab2013\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\vim\\vim72;F:\\Notepad+\\Notepad++;F:\\minGW\\bin;D:\\phpstudy\\phpStudy\\MySQL\\bin;F:\\python\\python2.7;D:\\phpstudy\\phpStudy\\php54n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'UDLGBK25YFB5EGJ'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VS100COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'advanced-frontend=amgocosqncbsch02ssledmnfe4; _csrf-frontend=baf356c1f50a997b037dc887d9df1b74a6ab43f9599c00a964c2412bcfd083d7a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2201%16%DA%AA%0B%2Cd%A0%8B%8Ch%DA%3B4m%ADR%A1%C8%1E3p%1E%FDf%F8%5B%8B-%7C%02%22%3B%7D; _identity-frontend=fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://blog.cn/assets/e7b21946/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '29107'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/git/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/e7b21946/images/bg.jpg'
+    'REQUEST_URI' => '/assets/e7b21946/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/git/yii-blog/frontend/web/assets/e7b21946/images/bg.jpg'
+    'PATH_INFO' => '/assets/e7b21946/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/git/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/e7b21946/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1503153855.6561
+    'REQUEST_TIME' => 1503153855
+]
+2017-08-19 22:46:34 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: Content-Type' in D:\WWW\git\yii-blog\common\widgets\ueditor\Uploader.php:167
+Stack trace:
+#0 D:\WWW\git\yii-blog\common\widgets\ueditor\Uploader.php(167): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\WWW\\git\\yii-...', 167, Array)
+#1 D:\WWW\git\yii-blog\common\widgets\ueditor\Uploader.php(50): common\widgets\ueditor\Uploader->saveRemote()
+#2 D:\WWW\git\yii-blog\common\widgets\ueditor\UeditorAction.php(211): common\widgets\ueditor\Uploader->__construct('http://img1.51c...', Array, 'remote')
+#3 D:\WWW\git\yii-blog\common\widgets\ueditor\UeditorAction.php(53): common\widgets\ueditor\UeditorAction->ActCrawler()
+#4 [internal function]: common\widgets\ueditor\UeditorAction->run()
+#5 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#6 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#7 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('ueditor', Array)
+#8 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('post/ueditor', Array)
+#9 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#11 {main}
+2017-08-19 22:46:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'action' => 'catchimage'
+]
+
+$_POST = [
+    'source' => [
+        0 => 'http://img1.51cto.com/attachment/201102/10/2712776_1297350409WAxs.jpg'
+    ]
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'amgocosqncbsch02ssledmnfe4'
+    '_csrf-frontend' => 'baf356c1f50a997b037dc887d9df1b74a6ab43f9599c00a964c2412bcfd083d7a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"01Úª,d ‹ŒhÚ;4m­R¡È3pýfø[‹-|\";}'
+    '_identity-frontend' => 'fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:48:\"[560,\"z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS\",2592000]\";}'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'UDLGBK25YFB5EGJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\UDLGBK25YFB5EGJ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\python3\\Scripts\\;E:\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\bin\\win32;E:\\matlab2013\\runtime\\win64;E:\\matlab2013\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\vim\\vim72;F:\\Notepad+\\Notepad++;F:\\minGW\\bin;D:\\phpstudy\\phpStudy\\MySQL\\bin;F:\\python\\python2.7;D:\\phpstudy\\phpStudy\\php54n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'UDLGBK25YFB5EGJ'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VS100COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => 'advanced-frontend=amgocosqncbsch02ssledmnfe4; _csrf-frontend=baf356c1f50a997b037dc887d9df1b74a6ab43f9599c00a964c2412bcfd083d7a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2201%16%DA%AA%0B%2Cd%A0%8B%8Ch%DA%3B4m%ADR%A1%C8%1E3p%1E%FDf%F8%5B%8B-%7C%02%22%3B%7D; _identity-frontend=fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://blog.cn/post/create'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://blog.cn'
+    'HTTP_CONTENT_LENGTH' => '92'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '29400'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/git/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/post/ueditor'
+    'REQUEST_URI' => '/post/ueditor?action=catchimage&'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '92'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'action=catchimage&'
+    'PATH_TRANSLATED' => 'D:/WWW/git/yii-blog/frontend/web/post/ueditor'
+    'PATH_INFO' => '/post/ueditor'
+    'SCRIPT_FILENAME' => 'D:/WWW/git/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/post/ueditor'
+    'REQUEST_TIME_FLOAT' => 1503153994.088
+    'REQUEST_TIME' => 1503153994
+]
+2017-08-20 21:28:55 [127.0.0.1][560][vjb5dn42qahsm7c9p43qjial65][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/e7b21946/images/bg.jpg".' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/e7b21946...', Array)
+#1 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#2 {main}
+2017-08-20 21:28:55 [127.0.0.1][560][vjb5dn42qahsm7c9p43qjial65][info][application] $_COOKIE = [
+    '_csrf-frontend' => '08254e94f9d575c70db1e6be4d8ae16ba8736e61101c8f561a464beb8d33f076a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"GŽ¨Ó|‰å„7Ê
+ÕŽšˆˆåäÐd¢s¬ÁFVRŽk<\";}'
+    'advanced-frontend' => 'vjb5dn42qahsm7c9p43qjial65'
+    '_identity-frontend' => 'fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:48:\"[560,\"z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'UDLGBK25YFB5EGJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\UDLGBK25YFB5EGJ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\python3\\Scripts\\;E:\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\bin\\win32;E:\\matlab2013\\runtime\\win64;E:\\matlab2013\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\vim\\vim72;F:\\Notepad+\\Notepad++;F:\\minGW\\bin;D:\\phpstudy\\phpStudy\\MySQL\\bin;F:\\python\\python2.7;D:\\phpstudy\\phpStudy\\php54n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'UDLGBK25YFB5EGJ'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VS100COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => '_csrf-frontend=08254e94f9d575c70db1e6be4d8ae16ba8736e61101c8f561a464beb8d33f076a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22G%8E%A8%D3%7C%89%E5%0B%847%CA%0A%D5%8E%9A%88%88%E5%E4%D0d%A2s%AC%1D%C1FVR%8Ek%3C%22%3B%7D; advanced-frontend=vjb5dn42qahsm7c9p43qjial65; _identity-frontend=fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://blog.cn/assets/e7b21946/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '1689'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/git/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/e7b21946/images/bg.jpg'
+    'REQUEST_URI' => '/assets/e7b21946/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/git/yii-blog/frontend/web/assets/e7b21946/images/bg.jpg'
+    'PATH_INFO' => '/assets/e7b21946/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/git/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/e7b21946/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1503235735.5779
+    'REQUEST_TIME' => 1503235735
+]
+2017-08-20 21:47:43 [127.0.0.1][560][vjb5dn42qahsm7c9p43qjial65][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/e7b21946/images/bg.jpg".' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/e7b21946...', Array)
+#1 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\WWW\git\yii-blog\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\WWW\git\yii-blog\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\WWW\git\yii-blog\frontend\web\index.php(22): yii\base\Application->run()
+#2 {main}
+2017-08-20 21:47:43 [127.0.0.1][560][vjb5dn42qahsm7c9p43qjial65][info][application] $_COOKIE = [
+    '_csrf-frontend' => '08254e94f9d575c70db1e6be4d8ae16ba8736e61101c8f561a464beb8d33f076a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"GŽ¨Ó|‰å„7Ê
+ÕŽšˆˆåäÐd¢s¬ÁFVRŽk<\";}'
+    'advanced-frontend' => 'vjb5dn42qahsm7c9p43qjial65'
+    '_identity-frontend' => 'fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba:2:{i:0;s:18:\"_identity-frontend\";i:1;s:48:\"[560,\"z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 560
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'UDLGBK25YFB5EGJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\UDLGBK25YFB5EGJ'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'E:\\python3\\Scripts\\;E:\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\bin\\win32;E:\\matlab2013\\runtime\\win64;E:\\matlab2013\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\vim\\vim72;F:\\Notepad+\\Notepad++;F:\\minGW\\bin;D:\\phpstudy\\phpStudy\\MySQL\\bin;F:\\python\\python2.7;D:\\phpstudy\\phpStudy\\php54n;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'UDLGBK25YFB5EGJ'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VS100COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    '_DFX_INSTALL_UNSIGNED_DRIVER' => '1'
+    'HTTP_COOKIE' => '_csrf-frontend=08254e94f9d575c70db1e6be4d8ae16ba8736e61101c8f561a464beb8d33f076a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22G%8E%A8%D3%7C%89%E5%0B%847%CA%0A%D5%8E%9A%88%88%E5%E4%D0d%A2s%AC%1D%C1FVR%8Ek%3C%22%3B%7D; advanced-frontend=vjb5dn42qahsm7c9p43qjial65; _identity-frontend=fef83663ead772aec4068ff2775f3671a01eab15bf57acee6cb88175540c6f1ba%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B560%2C%22z27rDX4knJ0fOULGE6QqyJ0Zhmy60FbS%22%2C2592000%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://blog.cn/assets/e7b21946/css/upload.css'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'blog.cn'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'blog.cn'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '2066'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'D:/WWW/git/yii-blog/frontend/web'
+    'DOCUMENT_URI' => '/index.php/assets/e7b21946/images/bg.jpg'
+    'REQUEST_URI' => '/assets/e7b21946/images/bg.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'PATH_TRANSLATED' => 'D:/WWW/git/yii-blog/frontend/web/assets/e7b21946/images/bg.jpg'
+    'PATH_INFO' => '/assets/e7b21946/images/bg.jpg'
+    'SCRIPT_FILENAME' => 'D:/WWW/git/yii-blog/frontend/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/assets/e7b21946/images/bg.jpg'
+    'REQUEST_TIME_FLOAT' => 1503236863.8054
+    'REQUEST_TIME' => 1503236863
+]
